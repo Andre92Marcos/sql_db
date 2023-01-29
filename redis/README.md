@@ -33,3 +33,10 @@ The CLI
 
 Database
 The database is stored in the server's RAM to enable fast data access. Redis also writes the contents of the database to disk at varying intervals to persist it as a backup, in case of failure.
+
+## Installing redis-cli
+
+Now, to be able to interact remotely with the Redis server, we need to download the redis-cli utility. It
+can be downloaded using the following command :
+	sudo apt install redis-tools
+Alternatively, we can also connect to the Redis server using the netcat utility
