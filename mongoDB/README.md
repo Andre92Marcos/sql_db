@@ -13,3 +13,12 @@ NoSQL database, the data is organized into a hierarchy of the following levels:
 Databases make up the top level of data organization in a MongoDB instance. Databases are organized into
 collections which contain documents. Documents contain literal data such as strings, numbers, dates, etc. in
 a JSON-like format.
+
+MongoDB is a document-oriented NoSQL database. Instead of using tables and rows like in traditional
+relational databases, MongoDB makes use of collections and documents. Each database contains
+collections which in turn further contain documents. Each document consists of key-value pairs which are
+the basic unit of data in a MongoDB database. A single collection can contain multiple documents and they
+are schema-less meaning that the size and content of each document can be different from each another.
+
+## Installing MongoDB Shell
+
