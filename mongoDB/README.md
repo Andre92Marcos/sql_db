@@ -1,6 +1,4 @@
-# mongoDB
-
-## Overview
+# mongoDB ## Overview
 
 There are different types of databases and one among them is MongoDB, which is a document-oriented
 NoSQL database. It is crucial to be aware of how the data is stored in different types of databases and how
@@ -22,3 +20,7 @@ are schema-less meaning that the size and content of each document can be differ
 
 ## Installing MongoDB Shell
 
+	1st) curl -O https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-3.4.7.tgz
+	2nd) tar xvf mongodb-linux-x86_64-3.4.7.tgz
+	3rd) Add this to .bashrc
+i		 export PATH="/opt/mongodb-linux-x86_64-3.4.7/bin:$PATH"
