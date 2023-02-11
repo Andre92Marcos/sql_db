@@ -23,4 +23,12 @@ are schema-less meaning that the size and content of each document can be differ
 	1st) curl -O https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-3.4.7.tgz
 	2nd) tar xvf mongodb-linux-x86_64-3.4.7.tgz
 	3rd) Add this to .bashrc
-i		 export PATH="/opt/mongodb-linux-x86_64-3.4.7/bin:$PATH"
+		 export PATH="/opt/mongodb-linux-x86_64-3.4.7/bin:$PATH"
+
+## MongoDb Shell Commands
+
+	show dbs; #  list the databases present on the MongoDB server
+	use <db_name> # selects the db to use
+	show collections; #  list down the collections stored in current db
+	db.<collection_name>.find() # dumps the content of a specific document of a collection
+	db.<collection_name>.find().pretty(); # same as find but with better output format
