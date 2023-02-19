@@ -14,3 +14,7 @@ according to the OWASP Top 10 list of web vulnerabilities.
 ##Cheat Sheet
 
 	https://www.invicti.com/blog/web-security/sql-injection-cheat-sheet/
+
+## Examples of SQL Injection in PHP
+
+	admin'#
